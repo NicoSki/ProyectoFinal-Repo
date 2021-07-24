@@ -1,0 +1,17 @@
+/*Variables*/
+
+$colorDeTitulo1: grey;
+$colorDeTitulo2: white;
+$tamañoDeTexto: 30px;
+
+/*estos son algunos estilos que voy a utilizar en el index para darle utilidad a SASS*/
+
+
+h3#amante{
+    color: $colorDeTitulo2;
+}
+
+p#esperar{
+    font-size:$tamañoDeTexto;
+}
+

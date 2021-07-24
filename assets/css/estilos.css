@@ -1,0 +1,36 @@
+/*En este css voy a darle mis porpios estilos para no pisar los que trae la pagina original*/
+
+/*Navbar*/
+
+header div img{
+    width: 20%;
+}
+
+/*hero*/
+
+section#hero div.icon-box img{
+width: 70%;
+}
+
+/*about*/
+
+section#about div.container{
+    display: flex;
+    flex-direction: column;  
+    line-height: 50px; 
+}
+
+section#about div.container div.row h3{
+    text-align: center;
+}
+
+/*portafolio*/
+
+section#portfolio{
+    background-image: url(../css/imagenes/fondodecarreras1.jpg);
+}
+
+
+
+
+
