@@ -1,0 +1,554 @@
+
+/*marcas*/
+header{
+    height: 400px;
+    background-image: url(../imagenes/fondodecarreras.jpg);
+    background-repeat:round;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p.marcas{
+    color: white;
+    margin-bottom: 100px;
+    font-size: 20px;
+}
+
+/*paso al main*/
+
+main div.logos ul{
+display: flex;
+justify-content: space-around;
+margin-top: 10px;
+background: black;
+list-style-type: none;
+}
+
+main div.logos ul li a{
+   text-decoration: none;
+   color: white;
+   font-size: 20px;
+    }
+
+    main div.logos ul li a:hover{
+        color: rgba(128, 128, 128, 0.356);
+         }   
+
+main div.logos ul li:active{
+   text-shadow: 2px 2px 2px orangered;
+    }   
+    
+ /*informacion de marcas*/   
+/*audi*/
+ div.audi{
+     background-image: url(../imagenes/logo-audi2.jpg);
+     background-repeat: no-repeat;
+     background-size: 100%;
+     margin-bottom: 15px;
+ }
+
+ .audi div.col-8{
+     display: flex;
+     align-items: center;
+     font-size: 25px;
+     color: grey;
+     line-height: 50px;
+ }
+
+ /*bmw*/
+ div.bmw{
+    background-image: url(../imagenes/logo-bmw2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 15px;
+}
+
+.bmw div.col-8{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: grey;
+    line-height: 45px;
+}
+
+/*Merceds-benz*/
+
+div.benz{
+    background-image: url(../imagenes/logo-benz1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 15px;
+}
+
+.benz div.col-8{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: grey;
+    line-height: 45px;
+}
+
+/*Volkswagen*/
+
+div.volks{
+    background-image: url(../imagenes/logo-volks2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 15px;
+}
+
+.volks div.col-8{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: grey;
+    line-height: 45px;
+}
+
+/*Ahora el footer*/
+
+footer nav ul{
+    display: flex;
+    justify-content: center;
+   }
+   
+   footer{
+       background: black;
+       height: 40px;
+   }
+
+
+
+
+
+
+
+
+
+   /*contacto*/
+/*header*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    font-size: 40px;
+    color: white;
+}
+
+header h5.contacto{
+    margin-top: 5px;
+}
+
+/*main*/
+
+section#contact h2{
+text-align: center;
+font-size: 40px;
+background-image: linear-gradient(black,orange);
+padding: 20px;
+}
+
+#izquierdo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+#derecho form div input, option, textarea{
+width: 100%;
+margin-bottom: 20px;
+outline-color: orangered;
+}
+
+div.container form{
+    display: flex;
+    flex-direction: column;
+    outline-color: orangered;
+}
+
+div.container form button{
+    background: orangered;
+}
+
+div.container form button:hover{
+    background: orangered;
+}
+
+
+
+
+ 
+  
+
+/*vehiculos*/
+/*header*/
+
+#coches{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+/*main*/
+
+div#presentacion{
+    height: 350px;
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+div#presentacion div img{
+    width: 100%;
+    height: 50%;
+}
+
+div#presentacion div div.card-body p{
+    text-align: center;
+    font-size: 20px;
+}
+
+div#presentacion div{
+    background: grey;
+}
+
+/*informacion*/
+
+#informacion{
+    margin-top: 10px;
+    background: black;
+    padding-bottom: 50px;
+}
+
+#informacion h3{
+    color: grey;
+}
+
+#informacion div#carouselExampleIndicators{
+    width: 100%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+#informacion1{
+    margin-top: 10px;
+    background: black;
+    padding-bottom: 50px;
+}
+
+#informacion1 h3{
+    color: grey;
+}
+
+#informacion1 div#carouselExampleIndicators{
+    width: 100%;
+    margin: auto;
+}
+
+
+/*por ultimo la seccion versus*/
+
+
+/*main*/
+
+/*contenedor*/
+
+div.container-fluid01{
+    height: 500px;
+   /* background: red;*/
+}
+
+
+
+/*seccion izquierdo*/
+p#final{
+    font-size: 40px;
+    font-family: 'Great Vibes', cursive;
+}
+
+.container-fluid01 div.row div#compet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-fluid01 div.row div#compet ul li ul{
+    display: flex;
+    justify-content:space-between;
+}
+
+.container-fluid01 div.row div#compet ul li ul li{
+    list-style-type: none;
+}
+
+
+
+.container-fluid02 div.row div#compet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-fluid02 div.row div#compet ul li ul{
+    display: flex;
+    justify-content:space-between;
+}
+
+.container-fluid02 div.row div#compet ul li ul li{
+    list-style-type: none;
+}
+
+
+
+
+.container-fluid03 div.row div#compet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-fluid03 div.row div#compet ul li ul{
+    display: flex;
+    justify-content:space-between;
+}
+
+.container-fluid03 div.row div#compet ul li ul li{
+    list-style-type: none;
+}
+
+/*seccion derecho*/
+
+.container-fluid01 div.row div#deportivo iframe{
+    width: 90%;
+    height: 350px;
+} 
+
+.container-fluid01 div.row div#deportivo{
+    margin: auto;
+}
+
+
+
+
+.container-fluid02 div.row div#deportivo iframe{
+    width: 90%;
+    height: 350px;
+} 
+
+.container-fluid02 div.row div#deportivo{
+    margin: auto;
+}
+
+
+
+
+.container-fluid03 div.row div#deportivo iframe{
+    width: 90%;
+    height: 350px;
+} 
+
+.container-fluid03 div.row div#deportivo{
+    margin: auto;
+}
+
+
+
+/*RESPONSIVE*/
+
+@media only screen and (max-width:600px){
+    /*vehiculos*/
+    header#coches{
+        text-align: center;
+        font-size: 20px;        
+        height: 200px;                       
+    }
+
+    #coches p{
+        margin-bottom: 150px;
+    }
+
+
+    
+    div#presentacion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 500px;
+        background: none;
+
+    }
+
+    div#informacion{
+        margin-top:500px;
+        
+    }
+
+    div#informacion1{
+        margin-top: 5px;
+        background: black;
+    }
+
+    div.row{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    div.row div.col-6{
+        width: 100%;
+    }
+    
+    footer nav{
+        width: 100%;
+        margin-top: 1px;
+    }
+
+    footer nav ul{
+        font-size: 10px;
+    }
+
+
+
+
+    /*marcas*/
+
+    header#marcas{
+        text-align: center;
+        height: 300px;
+    }
+
+
+    div.logos ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        line-height: 30px;
+    }
+
+
+    div.audi, div.bmw, div.benz, div.volks  div.container-fluid .row .col-4 .card{
+        margin-left: 33px;
+    }
+
+    div.audi, div.bmw, div.benz, div.volks{
+        background-image: none;
+    }
+
+
+    div.audi .col-8 p{
+        font-size: 17px;
+        line-height: normal;
+    }
+
+    div.audi .col-8 {
+        width: 100%;
+    }
+
+
+    div.bmw .col-8 p{
+        font-size: 17px;
+        line-height: normal;
+    }
+
+    div.bmw .col-8 {
+        width: 100%;
+    }
+
+
+    div.benz .col-8 p{
+        font-size: 17px;
+        line-height: normal;
+    }
+
+    div.benz .col-8 {
+        width: 100%;
+    }
+
+
+
+    div.volks .col-8 p{
+        font-size: 17px;
+        line-height: normal;
+    }
+
+    div.volks .col-8 {
+        width: 100%;
+    }
+
+
+    /*VERSUS*/
+
+    header#versus h3{
+      font-size: 40px;
+    }
+
+    header#versus{
+        height: 200px;
+    }
+
+    
+    header#versus{
+        font-size: 15px;
+    }
+
+
+    p#final{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    div.container-fluid01 .row h4{
+        text-decoration:underline ;
+    }
+
+
+    div.container-fluid02 .row{
+        margin-top: 300px;
+    }
+
+    div.container-fluid03 .row{
+        margin-top: 70px;
+    }
+
+    div.container-fluid02 .row h4{
+        text-decoration: underline;
+    }
+
+    div.container-fluid03 .row h4{
+        text-decoration: underline;
+    }
+
+
+    div.container-fluid01 .row div#deportivo iframe{
+        width: 100%;
+    }
+
+
+    div.container-fluid02 .row div#deportivo iframe{
+        width: 100%;
+    }
+
+
+    div.container-fluid03 .row div#deportivo iframe{
+        width: 100%;
+    }
+
+
+
+
+    /*contacto*/
+
+    section#contact{
+        margin-bottom: 110px;
+    }
+}
+
